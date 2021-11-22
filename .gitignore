@@ -2,3 +2,5 @@
 .DS_Store
 .vscode/
 /build/*
+!/build/ckeditor.js
+!/build/ckeditor.js.map
