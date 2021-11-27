@@ -171,7 +171,6 @@ Editor.defaultConfig = {
 			'subscript',
 			'superscript',
 			'|',
-			'htmlEmbed',
 			'undo',
 			'redo',
 			'findAndReplace'
@@ -196,16 +195,6 @@ Editor.defaultConfig = {
 			'tableCellProperties',
 			'tableProperties'
 		]
-	},
-	htmlEmbed: {
-		showPreviews: true,
-		sanitizeHtml: (inputHtml) => {
-			const outputHtml = sanitize(inputHtml);
-			return {
-				html: outputHtml,
-				hasChanged: true
-			};
-		}
 	}
 };
 
