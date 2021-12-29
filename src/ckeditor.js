@@ -66,6 +66,8 @@ import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 // import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 
+import sanitizeHtml from 'sanitize-html';
+
 class Editor extends ClassicEditor {}
 
 // Plugins to include in the build.
@@ -196,6 +198,19 @@ Editor.defaultConfig = {
 			'tableCellProperties',
 			'tableProperties'
 		]
+	},
+	htmlEmbed: {
+		showPreviews: true,
+		sanitizeHtml: inputHtml => {
+			const outputHtml = sanitizeHtml(inputHtml, {
+				allowedTags: false,
+				allowedAttributes: false
+			});
+			return {
+				html: outputHtml,
+				hasChanged: true
+			};
+		}
 	}
 };
 
