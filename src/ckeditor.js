@@ -159,6 +159,7 @@ Editor.defaultConfig = {
 			'indent',
 			'|',
 			// 'code',
+			'htmlEmbed',
 			'codeBlock',
 			'todoList',
 			'uploadImage',
