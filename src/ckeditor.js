@@ -7,11 +7,11 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat.js';
 import AutoImage from '@ckeditor/ckeditor5-image/src/autoimage.js';
 import AutoLink from '@ckeditor/ckeditor5-link/src/autolink.js';
-// import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
+import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices.js';
-// import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
 import DataFilter from '@ckeditor/ckeditor5-html-support/src/datafilter.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
@@ -27,7 +27,7 @@ import HtmlComment from '@ckeditor/ckeditor5-html-support/src/htmlcomment.js';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
-// import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert.js';
+import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js';
@@ -64,7 +64,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import Title from '@ckeditor/ckeditor5-heading/src/title.js';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
-// import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
+import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 
 import sanitizeHtml from 'sanitize-html';
 
